@@ -1,0 +1,249 @@
+:root{
+    box-sizing:border-box;
+    color:white;
+}
+
+* , ::before , ::after{
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url(./images/wood-2203740_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header{
+    background-color:black;
+    padding:5px;
+    font-family: 'Cookie', cursive;
+    font-size: 1.7rem;
+    box-shadow: 2px 2px 10px lightgrey;
+    top:0;
+    position:sticky;
+}
+
+#header .menu ul{
+    display:flex;
+    width:100%;
+    flex-wrap: wrap;
+}
+
+#header .men-con{
+    display:flex;
+}
+
+.men-con{
+    align-items: center;
+    width:100%;
+}
+
+.men-con .menu li{
+    margin-right:10px;
+    padding-right:20px;
+    flex-wrap: wrap;
+}
+
+
+.contact-info {
+    width:20%;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.menu {
+    margin-right:30px;
+    width:auto;
+}
+
+li, a{
+    color:white;
+    text-decoration:none;
+    list-style: none;
+}
+
+li a:hover, .contact-info a:hover{
+    opacity:0.8;
+    color:azure;
+}
+
+#logo {
+    width:10%;
+    margin-right: auto;
+}
+
+#logo img{
+    width:30%;
+    margin-left:10px;
+}
+
+.slider-box {
+    margin-top: 5px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:200px;
+    background-color: black;
+    box-shadow: 2px 2px 10px lightgrey;
+}
+
+.slider-half-item{
+    width:50%;
+    height:100%;
+    font-family: cursive, Geneva;
+}
+
+.slider-half-item article{
+    font-size: 1.2rem;
+}
+
+.slider-left{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.slider-left article {
+    text-align: center;
+}
+
+.slider-half-item img {
+    width:auto;
+    height:100%;
+    padding: 10px;
+}
+
+.button-section {
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.slider-half-item .button{
+    margin: 10px;
+    padding:10px;
+}
+
+.button:hover {
+    background-color:rgba(255, 255, 255, 0.3);
+}
+
+.order{
+    color:lightblue;
+    border:2px solid lightblue;
+}
+
+.reservation {
+    color:lightsalmon;
+    border:2px solid lightsalmon;
+}
+
+.slider-right {
+    align-items:center;
+    justify-content:center;
+}
+
+.slider-right {
+    background-image:url('images/pizza-slider-box.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+.advantages-box {
+    display: flex;
+    background-color:transparent;
+}
+
+.advantages-one-third {
+    width:33.3%;
+    padding:20px;
+    margin:30px 0px 30px;
+}
+
+.column-advantage {
+    height:330px;
+    border:5px solid black;
+    text-align:center;
+    color:white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.best-ingredients {
+    background-image: url('images/olive-oil-1412361__340.jpg');
+}
+
+.original-recipe{
+    background-image: url('images/cook-1375788_960_720.jpg');
+}
+
+.fast-delivery{
+    background-image: url('images/motor-scooter-4837310_960_720.jpg');
+}
+
+.pizza-menu{
+    background-color: black;
+    display:flex;
+    padding:15px;
+}
+
+.menu-one-forth{
+    width: 25%;
+    font-family: cursive, Geneva, sans-serif;
+    padding:10px;
+    text-align:center;
+    font-size: 1.2rem;
+}
+
+.menu-one-forth img {
+    width:100%;
+}
+
+.page-footer{
+    display:flex;
+    background-color: black;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    box-shadow: 0px -2px 25px lightgrey;
+    font-family: cursive, Geneva, sans-serif;
+    font-size: 1.3rem;
+}
+
+.page-footer ul{
+    display: inline-flex;
+    width:100%;
+    justify-content: center;
+    
+}
+
+.page-footer ul li {
+    padding: 10px;
+    margin: 15px 15px 0 0;
+}
+
+.menu-one-forth{
+    overflow: hidden;
+}
+
+.pizza-menu .hot-pizza {
+    border:3px solid lightgreen;
+    overflow: hidden;
+}
+
+.pizza-menu .popular-hot {
+    position: relative;
+}
+
+.popular-hot span{
+    position: absolute;
+    padding:4px;
+    left: -19px;
+    top: 25px;
+    transform:rotate(-45deg);
+    width:130px;
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    background-color: lightgreen;
+}
